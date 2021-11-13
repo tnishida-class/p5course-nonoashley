@@ -12,10 +12,6 @@ function setup() {
     if(i % 2 == 0){
       strokeWeight(2);
     }
-    else if (i % 3 == 1){
-      strokeWeight(4);
-    }
-
     else{
       strokeWeight(1);
     }
