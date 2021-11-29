@@ -4,11 +4,18 @@ function setup(){
   background(255);
 
   // 空欄を埋めて神戸市のロゴマークを完成させよう
+  stroke(32, 109, 46)
   noFill();
   strokeWeight(25);
   strokeCap(SQUARE);
   arc(100 + 25, 100, 100, 100, QUARTER_PI * 3, QUARTER_PI * 3 + PI);
   // BLANK[1]
+  stroke(32, 109, 46)
+    noFill();
+    strokeWeight(25);
+    strokeCap(SQUARE);
+    arc(72 , 100, 100, 100, QUARTER_PI * 5, QUARTER_PI * 5 + PI);
+  }
 
   // おまけ：神戸大学のロゴを作りたい人向けに色情報だけ置いておきます
   const red = color(196, 0, 0);
